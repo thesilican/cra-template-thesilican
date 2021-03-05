@@ -1,9 +1,13 @@
-import styles from "./styles/App.module.scss";
+import styled from "styled-components";
+
+const StyledAppContainer = styled.div`
+  padding: 2rem;
+`;
 
 export default function App() {
   return (
-    <div className={styles.App}>
+    <StyledAppContainer>
       <h1>Hello, World!</h1>
-    </div>
+    </StyledAppContainer>
   );
 }
